@@ -1,0 +1,5 @@
+@import 'tailwindcss';
+
+.name-text{
+    text-shadow: 0 4px rgb(0, 17, 130);
+}
