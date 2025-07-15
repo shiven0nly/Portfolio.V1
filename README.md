@@ -1,12 +1,20 @@
-# React + Vite
+# Portfolio 
+- Live for laptop & mobile both: https://portfolio-v1-topaz-iota.vercel.app/
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 📁 Tech Stacks
+- React
+- TailwindCSS
+- AOS
+- GSAP
+- Lucide-react
 
-Currently, two official plugins are available:
+# ScreenShots:
+<img width="1919" height="912" alt="Screenshot 2025-07-14 183511" src="https://github.com/user-attachments/assets/9ec65646-c988-424c-a638-5d5e52dca17d" />
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
+<img width="1919" height="912" alt="Screenshot 2025-07-14 183528" src="https://github.com/user-attachments/assets/11463c5a-a422-4929-bcfb-73c78490fce3" />
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+# Author: Shiven
+**Special Thanks to ❤️ ChatGPT**
