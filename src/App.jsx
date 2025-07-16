@@ -305,11 +305,11 @@ export default function Portfolio() {
       </nav>
 
       {/* Hero Section */}
-      <section id="home" className="min-h-screen flex items-center justify-center pt-20 bg-gradient-to-br from-gray-900 via-purple-900/20 to-gray-900" ref={heroRef}>
+      <section id="home" className="min-h-screen flex items-center justify-center pt-20 bg-gradient-to-br from-black via-[#0f3d3e] to-lime-400/10 relative" ref={heroRef}>
         <div className="max-w-4xl mx-auto text-center px-4">
           <div className="mb-8">
             <h1 className="hero-title text-5xl md:text-7xl font-bold mb-4">
-              <span className="name-text text-amber-300">
+              <span className="name-text text--300">
                 Shiven Sharma
               </span>
             </h1>
