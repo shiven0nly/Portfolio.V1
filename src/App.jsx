@@ -499,7 +499,7 @@ export default function Portfolio() {
             data-aos-delay="400"
           >
             <a 
-              href="mailto:contact@example.com" 
+              href="mailto:shiven676@gmail.com" 
               className="interactive-btn bg-gradient-to-r from-purple-500 to-pink-500 px-8 py-3 rounded-full font-semibold hover:shadow-lg hover:shadow-purple-500/25 transition-all duration-300"
             >
               Send Message
