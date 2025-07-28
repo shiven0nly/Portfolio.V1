@@ -207,6 +207,15 @@ export default function Portfolio() {
   const projects = [
     {
       id: 1,
+      title: "Ice-Cream Site",
+      description: "A Ice-Cream site, with sleek modern gradient look landing page, micro-interactions and hover effects. Infact, the ice-cream cone is animated with CSS and GSAP.",
+      tech: ["React.js", "CSS", "GSAP"],
+      github: "https://github.com/shiven0nly/IceCream-Site",
+      live: "https://icecream-site.netlify.app/",
+      image: "/images/icecream.png"
+    },
+    {
+      id: 2,
       title: "Mini Quiz Site",
       description: "A Mini quiz fun site, with sleek modern gradient look landing page, with confetti button and after completing quiz u can see your final score.",
       tech: ["HTML", "CSS", "JavaScript"],
@@ -215,7 +224,7 @@ export default function Portfolio() {
       image: "/images/mini-quiz-site.png"
     },
     {
-      id: 2,
+      id: 3,
       title: "To do list Site",
       description: "A simple, sleek, TO-DO-List site with gradients button and minimal UI.. It stores the ToDos in LocalStorage so, if you close the tabs or even shutdown the laptop, they will remain 'Intact'.",
       tech: ["React", "TailwindCSS"],
@@ -224,7 +233,7 @@ export default function Portfolio() {
       image: "/images/todolist.png"
     },
     {
-      id: 3,
+      id: 4,
       title: "Tech Blog Site",
       description: "Its A tech blog site, inspired from 'TechCrunch' but i gave it more modern colors and AOS animations",
       tech: ["HTML", "CSS"],
@@ -233,7 +242,7 @@ export default function Portfolio() {
       image: "/images/techblog.png"
     },
     {
-      id: 4,
+      id: 5,
       title: "Cyber Security Site Demo",
       description: "Its a fictional cyber security site.Built with a focus on creativity, Ui/Ux and animation, this project is a part of my personal learning journey in web dev",
       tech: ["HTML", "CSS"],
@@ -241,7 +250,7 @@ export default function Portfolio() {
       image: "/images/icensite.png"
     },
     {
-      id: 5,
+      id: 6,
       title: "X.com UI Clone",
       description: "Its my first React TailwindCSS project, i try to copy the pixel-perfect UI of X.com, with working Like button and logics like 'without writing a word' the post button will not allow you to post",
       tech: ["React","TailwindCSS"],
@@ -305,11 +314,11 @@ export default function Portfolio() {
       </nav>
 
       {/* Hero Section */}
-      <section id="home" className="min-h-screen flex items-center justify-center pt-20 bg-gradient-to-br from-black via-[#0f3d3e] to-lime-400/10 relative" ref={heroRef}>
+      <section id="home" className="min-h-screen flex items-center justify-center pt-20 bg-gradient-to-br from-gray-900 via-purple-900/20 to-gray-900" ref={heroRef}>
         <div className="max-w-4xl mx-auto text-center px-4">
           <div className="mb-8">
             <h1 className="hero-title text-5xl md:text-7xl font-bold mb-4">
-              <span className="name-text text--300">
+              <span className="name-text text-amber-300">
                 Shiven Sharma
               </span>
             </h1>
@@ -356,7 +365,7 @@ export default function Portfolio() {
               </p>
               <p className="text-lg text-gray-300 mb-6">
                 When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, 
-                or sharing my knowledge with the developer community.
+                or sharing my knowledge with my techie friends.
               </p>
               <div className="flex space-x-4">
                 <a 
